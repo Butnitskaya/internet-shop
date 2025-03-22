@@ -77,7 +77,7 @@ const items = [
   
   // Функция для сортировки товаров
   function sortItems(criteria) {
-    let sortedItems = [...filteredItems];
+    const sortedItems = [...filteredItems];
   
     if (criteria === "price-asc") {
       sortedItems.sort((a, b) => a.price - b.price);
